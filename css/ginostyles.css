@@ -284,3 +284,25 @@ body {
 .lang-level {
   color: #666;
 }
+
+/* Botón de retorno */
+.back-button-container {
+  max-width: 1000px;
+  margin: 20px auto 0;
+  padding: 0 30px;
+}
+
+.back-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3949ab;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 0.95em;
+  font-weight: 600;
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease;
+  border: 2px solid #3949ab;
+}
