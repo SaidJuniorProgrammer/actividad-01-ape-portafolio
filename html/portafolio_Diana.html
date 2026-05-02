@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diana Melena | Junior Developer Full Stack</title>
+    <meta name="description"
+        content="Portafolio profesional de Diana Melena, Junior Developer Full Stack apasionada por tecnologías modernas.">
+    <link rel="stylesheet" href="../css/dianastyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#" class="logo">DIANA.</a>
+
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="hamburger">☰</label>
+
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="inicio">
+        <div class="hero-content">
+            <img src="../img/dianapic.jpeg" alt="Diana Melena" class="profile-img">
+            <h1>Diana Lucia Melena Santander</h1>
+            <p>Junior Developer Full Stack apasionada con experiencia en tecnologías modernas. Siempre aprendiendo y
+                creando soluciones innovadoras.</p>
+            <div class="hero-buttons">
+                <a href="#proyectos" class="btn btn-primary">Ver Proyectos</a>
+                <a href="#cv-modal" class="btn btn-outline">Ver CV</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Statistics Section -->
+    <section id="estadisticas" style="padding-top: 0;">
+        <div class="stats-grid">
+            <div class="stat-card">
+                <span class="stat-value">10+</span>
+                <span class="stat-label">Proyectos Completados</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-value">5+</span>
+                <span class="stat-label">Clientes Satisfechos</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-value">2+</span>
+                <span class="stat-label">Años de Experiencia</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-value">6+</span>
+                <span class="stat-label">Tecnologías</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre-mi">
+        <h2 class="section-title">Sobre Mí</h2>
+        <div class="card">
+            <p>Developer apasionada con experiencia en tecnologías modernas. Siempre aprendiendo y creando soluciones
+                innovadoras. Experimentada en desarrollo de páginas web y aplicaciones interactivas. Mi enfoque
+                principal es crear experiencias de usuario fluidas y diseños impactantes.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="habilidades">
+        <h2 class="section-title">Habilidades</h2>
+        <div class="skills-container">
+            <span class="skill-chip">Angular</span>
+            <span class="skill-chip">TypeScript</span>
+            <span class="skill-chip">Ionic</span>
+            <span class="skill-chip">JavaScript</span>
+            <span class="skill-chip">HTML/CSS</span>
+            <span class="skill-chip">Node.js</span>
+            <span class="skill-chip">SQL</span>
+            <span class="skill-chip">Git/GitHub</span>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="proyectos">
+        <h2 class="section-title">Proyectos</h2>
+        <div class="projects-grid">
+            <div class="card project-card">
+                <img src="../img/project.png" alt="Syncopation" class="project-img">
+                <div class="project-info">
+                    <h3>Syncopation</h3>
+                    <p>Juego rítmico en web desarrollado con TypeScript, JavaScript y Phaser.</p>
+                    <a href="https://github.com/Misstery13/Syncopation" target="_blank" class="btn btn-outline"
+                        style="padding: 0.5rem 1rem; font-size: 0.9rem; margin-top: 1rem;">Ver en GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto">
+        <h2 class="section-title">Contacto</h2>
+        <div class="contact-grid">
+            <a href="mailto:diana.melena25@gmail.com" class="contact-link">
+                <span>Email</span>
+                <span style="font-size: 0.8rem; opacity: 0.7;">diana.melena25@gmail.com</span>
+            </a>
+            <a href="https://github.com/Misstery13" target="_blank" class="contact-link">
+                <span>GitHub</span>
+                <span style="font-size: 0.8rem; opacity: 0.7;">@Misstery13</span>
+            </a>
+            <a href="https://linkedin.com/in/diana-melena-santander-60211924b/" target="_blank" class="contact-link">
+                <span>LinkedIn</span>
+                <span style="font-size: 0.8rem; opacity: 0.7;">Diana Melena</span>
+            </a>
+            <a href="https://discord.gg/F8sQugvPZ3" target="_blank" class="contact-link">
+                <span>Discord</span>
+                <span style="font-size: 0.8rem; opacity: 0.7;">Join Server</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- CV Modal -->
+    <div id="cv-modal" class="modal">
+        <div class="modal-content">
+            <a href="#" class="close-modal">&times;</a>
+            <h2 style="margin-bottom: 1.5rem; color: var(--space-indigo);">Curriculum Vitae</h2>
+            <p style="margin-bottom: 1rem;">Haz click para descargar mi CV o visualízalo a continuación.</p>
+            <div class="modal-buttons">
+                <a href="../pdf/CV_Diana_ES.pdf" download class="btn btn-primary">Descargar ES</a>
+                <a href="../pdf/CV_Diana_EN.pdf" download class="btn btn-outline">Descargar EN</a>
+            </div>
+            <div style="flex-grow: 1; height: 60vh;">
+                <iframe src="../pdf/CV_Diana_ES.pdf" class="modal-iframe" title="Curriculum Vitae"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <footer
+        style="text-align: center; padding: 4rem 2rem; color: var(--text-muted); border-top: 1px solid rgba(0,0,0,0.05);">
+        <p>&copy; 2026 Diana Melena Santander.</p>
+    </footer>
+
+</body>
+
+</html>
